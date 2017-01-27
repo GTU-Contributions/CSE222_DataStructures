@@ -1,0 +1,15 @@
+@startuml
+class com.mycompany.hw3_mehmed_mustafa_131044084.SpecList
+class com.mycompany.hw3_mehmed_mustafa_131044084.SpecTester
+class java.util.ArrayList
+class java.util.Collection
+class java.util.Iterator
+class java.util.LinkedList
+class java.util.List
+com.mycompany.hw3_mehmed_mustafa_131044084.SpecList ..> java.util.Collection
+com.mycompany.hw3_mehmed_mustafa_131044084.SpecList ..> java.util.Iterator
+com.mycompany.hw3_mehmed_mustafa_131044084.SpecList --|> java.util.LinkedList
+com.mycompany.hw3_mehmed_mustafa_131044084.SpecList ..> java.util.List
+com.mycompany.hw3_mehmed_mustafa_131044084.SpecTester ..> java.util.ArrayList
+com.mycompany.hw3_mehmed_mustafa_131044084.SpecTester ..> java.util.LinkedList
+@enduml

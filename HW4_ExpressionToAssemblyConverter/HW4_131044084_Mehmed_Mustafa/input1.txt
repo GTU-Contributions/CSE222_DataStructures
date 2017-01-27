@@ -1,0 +1,10 @@
+a = 6
+b = 2
+c = 3
+d = 4
+e = 5
+b = a - b * 3
+f = 3 / a * b + 21 - a * 2
+g = f * 5 + a / 6 * c + 6
+print f
+print g

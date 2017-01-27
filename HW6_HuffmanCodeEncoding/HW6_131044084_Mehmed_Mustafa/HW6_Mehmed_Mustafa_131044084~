@@ -1,0 +1,31 @@
+CSE222
+HW6_Mehmed_Mustafa_131044084
+
+Part3
+1. Requirements:
+1.1 Overall Description:
+	There are 4 priority queues which are implemented by unsorted vector, 
+array list, linked list, binary search tree.
+1.2 Requirements for offer methods:
+	Priority Vector Queue
+	Priority Array List Queue
+	Priority Linked List Queue
+	Priority Binary Search Tree Queue
+1.3 Requirements for poll methods:
+	Priority Vector Queue with data
+	Priority Array List Queue with data
+	Priority Linked List Queue with data
+	Priority Binary Search Tree Queue with data
+2. Cozume yaklasim
+Ilk once internette implement etmem gereken tum metodlari arastirdim ve 
+vector, array list, linked list ve binary tree kullanarak poll, offer, size ve 
+isEmpty methodlarini priority queue tasarliyacak sekilde implement ettim. Veriler 
+eklenirken sirali sekilde ekleniyorlar.
+
+
+
+
+
+
+
+

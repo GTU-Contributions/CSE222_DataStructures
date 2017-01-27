@@ -1,0 +1,73 @@
+BIL222 - HW3 Rapor
+
+Mehmed MUSTAFA 131044084
+
+Detailed System Requirements:
+Baslangic icin bir tane SpecList ve Collectiondan turemis diger objeler
+
+addAllAtHead methodunu kullanabilmek icin elimizde bir tane Collectionu 
+extend eden bir sinif gerek parametre olarak. Method bu sinifta bulunan 
+elemanlari SpecList sinifin basina ekler.
+
+getIntersectList methodunu kullanabilmek icin elimizde bir tane Collectionu 
+extend eden bir sinif gerek parametre olarak. Method 
+
+sortList - 2 tane method var. Parametre almayan method kucukten buyuge dogru 
+siralama yapar, integer parametre alan method ise buyukten kucuge dogru 
+siralama yapar. Elimizde bir tane SpecList sinifi olmasi gerek kullanabilmemiz
+icin.
+
+
+
+Problem solutions approach: 
+addAllAtHead methodunu yazmak icin super classtan miras alinan 
+addAll(index, collection) kullandim. Bu methodun firlatan exceptionunu 
+yakaladim.
+
+getIntersectList methodunu yazmak icin kesimini alacagim iki collectiondan 
+birinin iteratorunu kullanarak tum elemanlari gezdim ve diger collectionda ki 
+elemanlarla kontrol ettim contains() methodunu kullanarak, eger ayni eleman 
+iki collectionda da varsa ve intersectListte eklenmemis ise o liste ekledim 
+ve intersectListi return ettim
+
+sortList methodunu pdfte link edilen wiki linkinden algorithmasini gordum 
+ve java icin implement ettim.
+
+
+
+Algoritma time complexity:
+addAllAtHead methodunun time complexitisi O(n).
+addAll methodu linear zamanda calisir n'lik bir collection ekleyecegimiz icin
+
+getIntersectList methodunun time complexitisi O(n^3).
+while dongusu linear zamanda calisir
+tempe atamak constant zamanda calisir
+if(c.containst(temp)) check etmek linear zamanda calisir
+if(!intersectList.contains(temp)) check etmek icin linear zamanda calisir
+
+T(n) = n^3 + 2 = O(n^3)
+
+sortList methodunun time complexitisi O(n^2)
+do while linear zamanda calisir
+changed atama const time
+for dongusu linear zamanda calisir
+if kontrolu ve atamalar - constant time
+if(!changed) const time calisir
+for dongusu linear zamanda calisir
+if kontrolu ve atamalar - constant time
+
+T(n) = 2n^2 + 12 = O(n^2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+

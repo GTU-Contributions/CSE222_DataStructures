@@ -1,0 +1,22 @@
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/home/mmustafa/Desktop/HW6_131044084_Mehmed_Mustafa/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2016. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/mmustafa/Desktop/HW6_131044084_Mehmed_Mustafa/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'HW6_131044084_Mehmed_Mustafa 1.0-SNAPSHOT API'
+-linkoffline
+'http://docs.oracle.com/javase/8/docs/api' '/home/mmustafa/Desktop/HW6_131044084_Mehmed_Mustafa/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'HW6_131044084_Mehmed_Mustafa 1.0-SNAPSHOT API'

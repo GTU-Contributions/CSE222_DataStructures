@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Graph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Vertices>
+    <Vertex Name="v1" />
+    <Vertex Name="v2" />
+    <Vertex Name="v3" />
+    <Vertex Name="v4" />
+    <Vertex Name="v5" />
+    <Vertex Name="v6" />
+    <Vertex Name="v7" />
+    <Vertex Name="v8" />
+    <Vertex Name="v9" />
+    <Vertex Name="v10" />
+  </Vertices>
+  <Edges>
+    <Edge Name="e1" V1="v1" V2="v7" Weight="604" />
+    <Edge Name="e2" V1="v7" V2="v4" Weight="547" />
+    <Edge Name="e3" V1="v4" V2="v3" Weight="649" />
+    <Edge Name="e4" V1="v3" V2="v9" Weight="618" />
+    <Edge Name="e5" V1="v9" V2="v6" Weight="454" />
+    <Edge Name="e6" V1="v6" V2="v5" Weight="902" />
+    <Edge Name="e7" V1="v5" V2="v8" Weight="237" />
+    <Edge Name="e8" V1="v8" V2="v10" Weight="903" />
+    <Edge Name="e9" V1="v10" V2="v2" Weight="701" />
+    <Edge Name="e10" V1="v9" V2="v1" Weight="335" />
+    <Edge Name="e11" V1="v5" V2="v8" Weight="355" />
+    <Edge Name="e12" V1="v2" V2="v3" Weight="406" />
+    <Edge Name="e13" V1="v8" V2="v10" Weight="569" />
+    <Edge Name="e14" V1="v1" V2="v10" Weight="16" />
+    <Edge Name="e15" V1="v4" V2="v6" Weight="816" />
+    <Edge Name="e16" V1="v3" V2="v7" Weight="704" />
+    <Edge Name="e17" V1="v4" V2="v10" Weight="252" />
+    <Edge Name="e18" V1="v5" V2="v4" Weight="964" />
+    <Edge Name="e19" V1="v1" V2="v4" Weight="435" />
+    <Edge Name="e20" V1="v6" V2="v10" Weight="857" />
+    <Edge Name="e21" V1="v2" V2="v1" Weight="618" />
+    <Edge Name="e22" V1="v5" V2="v7" Weight="498" />
+    <Edge Name="e23" V1="v8" V2="v1" Weight="49" />
+    <Edge Name="e24" V1="v2" V2="v9" Weight="963" />
+    <Edge Name="e25" V1="v5" V2="v10" Weight="933" />
+    <Edge Name="e26" V1="v5" V2="v6" Weight="918" />
+    <Edge Name="e27" V1="v8" V2="v4" Weight="362" />
+    <Edge Name="e28" V1="v3" V2="v10" Weight="94" />
+    <Edge Name="e29" V1="v1" V2="v5" Weight="271" />
+    <Edge Name="e30" V1="v3" V2="v9" Weight="64" />
+    <Edge Name="e31" V1="v10" V2="v2" Weight="659" />
+    <Edge Name="e32" V1="v7" V2="v2" Weight="978" />
+    <Edge Name="e33" V1="v7" V2="v4" Weight="137" />
+    <Edge Name="e34" V1="v7" V2="v6" Weight="162" />
+    <Edge Name="e35" V1="v4" V2="v2" Weight="757" />
+    <Edge Name="e36" V1="v8" V2="v3" Weight="810" />
+  </Edges>
+</Graph>
